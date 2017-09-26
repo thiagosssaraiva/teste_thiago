@@ -12,7 +12,6 @@ public class teste_Customer {
     
     public static void main (String[]args) throws Exception{
         customer customer = new customer();
-        customer.menuCustomer();
-        
+        customer.menuCustomer();    
     }   
 }
