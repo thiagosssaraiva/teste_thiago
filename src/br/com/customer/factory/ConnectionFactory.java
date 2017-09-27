@@ -16,7 +16,7 @@ import java.sql.DriverManager;
 public class ConnectionFactory { 
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
-    private static final String DATABASE = "jdbc:mysql://localhost:3306/thiago_testeBack";
+    private static final String DATABASE = "jdbc:mysql://localhost:3306/thiago_testeback";
     
     public static Connection createConnection() throws Exception{
         Class.forName("com.mysql.jdbc.Driver");

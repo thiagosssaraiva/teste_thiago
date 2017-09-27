@@ -27,11 +27,7 @@ public class customer {
         for (int i = 0; i < valor; i++) {
             Customer customer = new Customer();
             customerDAO dao = new customerDAO();
-            if (valor % 2 == 0) {
-                customer.setCpf_cnpj(util.generateCPF());
-            } else {
-                customer.setCpf_cnpj(util.generateCNPJ());
-            }
+            customer.setCpf_cnpj(util.generateCPF());
             customer.setNm_customer(util.generateName());
             customer.setIs_active(util.generateBoolean());
             customer.setVl_total(util.generateValue());
